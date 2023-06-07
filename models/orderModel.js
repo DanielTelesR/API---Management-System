@@ -16,7 +16,7 @@ const Order = database.define(
       type: Sequelize.STRING,
       allowNull: false,
     },
-    order: {
+    items: {
       type: Sequelize.STRING,
       allowNull: false,
     },
